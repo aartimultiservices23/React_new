@@ -1,4 +1,4 @@
-🚀 AutoSnap – React + Spring Boot + Java Auto Screenshot App
+##🚀 AutoSnap – React + Spring Boot + Java Auto Screenshot App
 
 AutoSnap is a modern full-stack application built with:
 
@@ -6,7 +6,6 @@ React (Frontend)
 
 Spring Boot (Backend)
 
-(Optional) Java Desktop Screenshot App
 
 This project demonstrates authentication, protected routing, periodic background events, and extensibility for screenshot automation and backend storage.
 
