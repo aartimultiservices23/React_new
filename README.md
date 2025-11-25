@@ -1,38 +1,51 @@
 🚀 AutoSnap – React + Spring Boot + Java Auto Screenshot App
 
-AutoSnap is a full-stack project combining:
+AutoSnap is a modern full-stack application built with:
 
 React (Frontend)
 
 Spring Boot (Backend)
 
+(Optional) Java Desktop Screenshot App
 
+This project demonstrates authentication, protected routing, periodic background events, and extensibility for screenshot automation and backend storage.
 
-It includes login functionality, protected routes, automatic background events, and a standalone Java application that captures desktop screenshots every few seconds.
-
-📌 Features
+✨ Features
 🔐 Frontend (React – Vite)
 
-Login page with styled UI
+Beautiful, clean Login UI
 
 Protected routes using React Router
 
-Pages: Home, Page One, Page Two
+Pages included:
+
+🏠 Home
+
+📄 Page One
+
+📄 Page Two
 
 Auto event trigger every 20 seconds using a custom React Hook useAutoPing
 
-LocalStorage authentication
+Authentication using LocalStorage
 
-Smooth navigation UI
+Modern, responsive UI styling
 
 🛠️ Backend (Spring Boot – Java + Maven)
 
-/api/auth/login login API
+/api/auth/login endpoint
 
-Uses DTOs: LoginRequest & LoginResponse
+DTO-based structure (LoginRequest, LoginResponse)
 
-CORS enabled for React (5173)
+CORS enabled for Vite (http://localhost:5173)
 
+Lightweight and ready for:
+
+MySQL integration
+
+Screenshot upload endpoint
+
+Event tracking API
 
 
 ▶️ Running the Project
